@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body, p{
+            padding: 0;
+            margin: 0 auto;
+            color: cadetblue;
+
+        }
+
+        .container{
+            width: 80%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100px 450px 150px;
+            grid-template-areas: "cabecalho cabecalho" "secao ba" ;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+    <header>
+        Cabeçalho
+    </header>
+
+    <section>
+        <p>conteúdo principal</p>
+    </section>
+
+    <aside>
+        <p>Barra Lateral</p>
+    </aside>
+
+    <footer></footer>
+</div>
+
+
+    
+</body>
+</html>
