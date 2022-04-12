@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do BEM</title>
+
+    <style>
+
+        .container {
+            border: 1px solid rgb(199, 101, 20);
+            border-width: 2.5px;
+            padding: 5px;
+            background-color: rgb(28, 78, 5)
+        }
+
+        .container__header{
+            border: 1px solid rgb(214, 19, 19);
+            border-width: 2.5px;
+            padding: 5px;
+            background-color: rgb(28, 78, 5)
+        }
+
+        .container__form{
+            background-color: rgb(243, 186, 81);
+            padding: 2px;  
+        }
+
+        .container__input{
+            background-color: rgb(225, 226, 159);
+            border-radius: 5px;
+            border-width: 3px;
+        }
+
+        .container__submit{
+            background-color:  rgb(28, 78, 5);
+            border-radius: 5px;
+            border-width: 3px;
+            color: white;  
+        }
+
+        .container__submit--hover:hover{
+            background-color: rgb(48, 131, 10)
+
+        }
+
+        .container__submit--active:active{
+            background-color: rgb(85, 233, 16)
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="container__header"> Meu Formulário</h1>
+
+        <form action="" class="container__form">
+
+            <input type="text" placeholder="Nome" class="container__input">
+            <input type="password" placeholder="Password" class="container__input">
+            <input type="Submit" Value="Entrar" class="container__submit container__submit--hover container__submit--active">
+
+        </form>
+
+    </div>
+</body>
+</html>

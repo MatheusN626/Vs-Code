@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+    
+    .container{
+        background-color: rgb(0, 0, 0);
+        border: 1px solid;
+        padding: 5px;
+    }
+
+    .title{
+        background-color: rgb(28, 44, 190);
+        border: 1px solid;
+        padding: 5px;
+        text-align: center;
+        
+    }
+
+    .title__text{
+        color: white;
+        font: 16px "Helvetica Neue", Arial;   
+        background-color: black;   
+
+    }
+
+    .content{
+        background-color: rgb(245, 184, 104);
+        border: 1px solid;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .content__form{
+        background-color: rgb(245, 155, 96)
+    }
+
+    .content__label{
+        background-color: black;
+        color: white;
+        font: 15px sans-serif;
+        padding: 1px;
+    }
+
+    .content__submit{
+        background-color: rgb(69, 165, 14);
+    }
+
+    .content__submit--hover:hover{
+        background-color: rgb(93, 236, 11);
+    }
+
+    .content__submit--active:active{
+        background-color: rgb(255, 238, 6);
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1 class="title__text">Formulário</h1>
+        </div>
+
+        <div class="content">
+
+            <form action="" class="content__form">
+
+                <label for="nome" class="content__label">Nome</label>
+                <input type="text">
+
+                <label for="email" class="content__label">Email</label>
+                <input type="email">
+
+                <label for="senha" class="content__label">Senha</label>
+                <input type="password">
+
+                <label for="confirmar-senha" class="content__label">Confirmar Senha</label>
+                <input type="password">
+
+                <input type="submit" class="content__submit content__submit--hover content__submit--active" value="Confirmar">
+
+            </form>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
