@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+
+   <div id="minha_div" class="minhadiv">
+       <p>Texto dentro da página</p>
+   </div> 
+
+   <script>
+
+        document.getElementById("minha_div").addEventListener("mouseover", mouseEmCima)
+
+        document.getElementById("minha_div").addEventListener("mouseout", mouseFora)
+
+        function mouseEmCima(){
+            document.getElementById("minha_div").style.background = "cadetblue"
+        }
+
+        function mouseFora(){
+            document.getElementById("minha_div").style.background = "coral"
+        }
+
+   </script>
+</body>
+</html>
